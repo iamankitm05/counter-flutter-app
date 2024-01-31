@@ -47,6 +47,7 @@ class CounterScreen extends StatelessWidget {
                   decoration: const InputDecoration(
                     hintText: 'Enter ammount to be increase or decreace',
                     hintStyle: TextStyle(color: Colors.white54),
+                    constraints: BoxConstraints(maxWidth: 400)
                   ),
                   keyboardType: TextInputType.number,
                 ),
